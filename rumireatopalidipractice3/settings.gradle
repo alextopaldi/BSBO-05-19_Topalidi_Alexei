@@ -1,0 +1,7 @@
+include ':simplefragmentapp'
+include ':systemintensapp'
+include ':resultactivity'
+include ':share'
+include ':intentapp'
+include ':app'
+rootProject.name = "ru.mirea.topalidi.practice3"
