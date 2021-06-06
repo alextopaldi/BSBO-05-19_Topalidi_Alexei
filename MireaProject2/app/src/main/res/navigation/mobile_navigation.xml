@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.topalidi.mireaproject2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.topalidi.mireaproject2.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.topalidi.mireaproject2.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="ru.mirea.topalidi.mireaproject2.Calculator"
+        android:label="fragment_calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="ru.mirea.topalidi.mireaproject2.Browser"
+        android:label="fragment_browser"
+        tools:layout="@layout/fragment_browser" />
+    <fragment
+        android:id="@+id/nav_playTrack"
+        android:name="ru.mirea.topalidi.mireaproject2.PlayTrack"
+        android:label="fragment_play_track"
+        tools:layout="@layout/fragment_play_track" />
+    <fragment
+        android:id="@+id/nav_photo"
+        android:name="ru.mirea.topalidi.mireaproject2.Photo"
+        android:label="fragment_photo"
+        tools:layout="@layout/fragment_photo" />
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="ru.mirea.topalidi.mireaproject2.Audio"
+        android:label="fragment_audio"
+        tools:layout="@layout/fragment_audio" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="ru.mirea.topalidi.mireaproject2.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_sensors"
+        android:name="ru.mirea.topalidi.mireaproject2.Sensors"
+        android:label="fragment_sensors"
+        tools:layout="@layout/fragment_sensors" />
+    <fragment
+        android:id="@+id/nav_storyz"
+        android:name="ru.mirea.topalidi.mireaproject2.Storyz"
+        android:label="fragment_storyz"
+        tools:layout="@layout/fragment_storyz" />
+</navigation>
